@@ -43,6 +43,9 @@ theme: # Тема сайта, информация о ее параметрах
 
 nav: # Структура сайта
 - Главная страница: index.md
+- Инструкции Notsapp:
+  - instruction_notsapp/index.md
+  - Удаление заметки: instruction_notsapp/notsapp_delete.md
 - Инструкции Eset:
   - instruction_eset/index.md
   - Установка: instruction_eset/eset-instruction.md
