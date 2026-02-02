@@ -72,3 +72,5 @@ markdown_extensions: # Расширения markdown
 
 plugins:
   - search
+  - glightbox
+  
