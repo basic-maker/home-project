@@ -19,4 +19,5 @@ jobs:
           path: .cache
       - run: pip install mkdocs-material
       - run: pip install mkdocs-glightbox # шаг для установки плагина mkdocs-glightbox
+      - run: pip install mkdocs-swagger-ui-tag # шаг для установки плагина swagger
       - run: mkdocs gh-deploy --force
