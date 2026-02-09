@@ -13,8 +13,8 @@ theme: # Тема сайта, информация о ее параметрах
       toggle:
         icon: material/weather-sunny # Иконка для активации светлой темы
         name: Выключить солнышко # Всплывающий текст-подсказка
-      primary: light purple # Основной цвет
-      accent: purple # Акцентный цвет
+      primary: light blue # Основной цвет
+      accent: indigo # Акцентный цвет
       # вы можете использовать любой цвет из списка: 
       # red; pink; purple; deep purple; indigo; blue; light blue; cyan; teal; 
       # green; light green; lime; yellow; amber; orange; deep orange; brown; 
@@ -28,12 +28,12 @@ theme: # Тема сайта, информация о ее параметрах
       primary: deep purple
       accent: blue
   features: # настройки функциональностей темы
-    - navigation.sections # Добавление разделов верхнего уровня в боковом меню, отключение спойлеров в боковом меню
+    # - navigation.sections # Добавление разделов верхнего уровня в боковом меню, отключение спойлеров в боковом меню
     - navigation.path # Хлебные крошки
     - navigation.indexes # Позволяет создавать корневые страницы разделов меню. Корневая страница должна лежать в папке раздела и называться index.md. Пример использования корневых страниц приведен ниже в настройках nav
-    - navigation.tabs # Верхнее меню
-    - navigation.tabs.sticky # Фиксация верхнего меню
-    - navigation.expand # Разворачивает спойлеры в левом меню по умолчанию
+    # - navigation.tabs # Верхнее меню
+    # - navigation.tabs.sticky # Фиксация верхнего меню
+    # - navigation.expand # Разворачивает спойлеры в левом меню по умолчанию
     - toc.integrate # Фиксирует оглавление страницы в левом меню
     - navigation.instant # Функция быстрой загрузки страниц
     - navigation.top # Добавляет кнопку «к началу» для быстрой обратной прокрутки страницы
@@ -56,6 +56,7 @@ nav: # Структура сайта
 - Инструкции Telegram:
   - instruction_telegram/index.md  
   - Изменение аватарки: instruction_telegram/basic-maker-instruction.md
+- API документация Swagger: api/api-swagger.md
 
 markdown_extensions: # Расширения markdown
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
@@ -76,4 +77,4 @@ markdown_extensions: # Расширения markdown
 plugins:
   - search
   - glightbox
-  
+  - swagger-ui-tag
