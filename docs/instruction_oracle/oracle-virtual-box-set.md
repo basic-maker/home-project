@@ -1,5 +1,7 @@
 # Установка Oracle VM VirtualBox
 
+--8<-- "source:notification"
+
 1. Перейдите на официальный сайт Oracle и откройте раздел **VirtualBox**.
 
 2. Скачайте установщик VirtualBox под вашу операционную систему.

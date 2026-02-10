@@ -1,5 +1,7 @@
 # Создание и запуск виртуальной машины в Oracle VM VirtualBox
 
+--8<-- "source:notification"
+
 1. Запустите Oracle VM VirtualBox.
 
 2. Нажмите кнопку **Создать**.
